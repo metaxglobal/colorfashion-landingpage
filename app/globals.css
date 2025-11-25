@@ -1,26 +1,41 @@
 @import "tailwindcss";
 
+@theme {
+  /* Colors */
+  --color-primary: #FFA742;
+  --color-whatsapp: #1FAF38;
+  --color-on-whatsapp: #ffffff;
+  --color-text-heading: #000000;
+  --color-text-body: rgba(0, 0, 0, 0.70);
+  --color-bg-default: #ffffff;
+  --color-bg-alt: #FFFCF9;
+  --color-bg-footer: #F9FAFB;
+  --color-icon-bg: #F3F3F5;
+  --color-icon-stock: #E5E7EB;
+
+  /* Typography */
+  --font-sans: var(--font-inter);
+
+  /* Border Radius */
+  --radius-sm: 12px;
+  --radius-md: 22px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-card: 0px 2px 3.4px rgba(0, 0, 0, 0.10);
+  --shadow-header: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: var(--color-bg-default);
+  --foreground: var(--color-text-heading);
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
