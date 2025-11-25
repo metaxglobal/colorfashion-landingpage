@@ -1,20 +1,20 @@
 import * as React from "react";
 import { Container } from "@/components/ui/container";
 import { AboutCard } from "@/components/features/about/about-card";
-import { Clock, Zap, MessageSquare } from "lucide-react";
+import { Award02Icon, FlashIcon, Message01Icon } from "hugeicons-react";
 
 export function AboutSection() {
     return (
-        <section className="w-full bg-bg-alt py-12 lg:py-16">
+        <section className="w-full bg-bg-alt py-12 lg:py-16" id="about">
             <Container className="flex flex-col items-center justify-center gap-12 lg:gap-16">
                 {/* Header */}
                 <div className="flex w-full flex-col items-start justify-start gap-6 lg:flex-row lg:items-center lg:justify-between lg:gap-16">
                     <div className="flex flex-col justify-center lg:w-[526px]">
-                        <h2 className="text-[32px] font-medium leading-8 text-text-heading lg:text-[60px] lg:leading-[64px]">
+                        <h2 className="text-[32px] font-medium leading-8 tracking-[-0.1rem] text-text-heading lg:text-[60px] lg:leading-[64px]">
                             About
                             <br />
                             <span className="text-primary">
-                                Color Fashion <br className="hidden lg:inline" />
+                                Color Fashion <br className="lg:inline" />
                                 Industrial (Pvt) Ltd
                             </span>
                         </h2>
@@ -49,19 +49,19 @@ export function AboutSection() {
                     <AboutCard
                         title="Fast Turnaround Times"
                         description="Stay ahead of your schedule with a built-in calendar that syncs across all your devices and reminds you what's next."
-                        icon={<Clock className="h-6 w-6 text-primary lg:h-8 lg:w-8" />}
+                        icon={<Award02Icon className="h-6 w-6 text-primary lg:h-8 lg:w-8" />}
                         className="h-full"
                     />
                     <AboutCard
                         title="Fast Turnaround Times"
                         description="Stay ahead of your schedule with a built-in calendar that syncs across all your devices and reminds you what's next."
-                        icon={<Zap className="h-6 w-6 text-primary lg:h-8 lg:w-8" />}
+                        icon={<FlashIcon className="h-6 w-6 text-primary lg:h-8 lg:w-8" />}
                         className="h-full"
                     />
                     <AboutCard
                         title="WhatsApp-First Service"
                         description="Eliminate distractions with a minimalist interface and time-blocking tools that help you get in deep work mode."
-                        icon={<MessageSquare className="h-6 w-6 text-primary lg:h-8 lg:w-8" />}
+                        icon={<Message01Icon className="h-6 w-6 text-primary lg:h-8 lg:w-8" />}
                         className="h-full"
                     />
                 </div>

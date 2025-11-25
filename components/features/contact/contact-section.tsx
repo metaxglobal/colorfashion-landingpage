@@ -1,15 +1,15 @@
 import * as React from "react";
 import { Container } from "@/components/ui/container";
 import { IconContainer } from "@/components/ui/icon-container";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { Location01Icon, CallingIcon, Mail01Icon, Clock01Icon } from "hugeicons-react";
 
 export function ContactSection() {
     return (
         <section className="w-full bg-bg-alt py-12 lg:py-16">
-            <Container className="flex flex-col items-center justify-center gap-8 lg:gap-16">
+            <Container className="flex flex-col items-center justify-center gap-8 lg:gap-8 lg:px-[222px]">
                 {/* Header */}
                 <div className="flex w-full flex-col items-center justify-start gap-3 text-center">
-                    <h2 className="text-[32px] font-medium leading-8 text-text-heading lg:text-[60px] lg:leading-[64px]">
+                    <h2 className="text-[32px] font-medium leading-8 tracking-[-0.1rem] text-text-heading lg:text-[60px] lg:leading-[64px]">
                         Get In <span className="text-primary">Touch</span>
                     </h2>
                     <p className="text-sm font-normal leading-[14px] text-text-body lg:text-lg lg:leading-7">
@@ -18,14 +18,19 @@ export function ContactSection() {
                 </div>
 
                 {/* Content */}
-                <div className="flex w-full flex-col items-center justify-center gap-6 lg:flex-row lg:items-center lg:justify-between lg:gap-12">
-                    {/* Map Image Placeholder */}
-                    <div className="relative h-[230px] w-full max-w-[361px] overflow-hidden rounded-[22px] lg:h-[446px] lg:max-w-[496px]">
-                        <img
-                            src="https://placehold.co/496x446"
-                            alt="Map"
-                            className="h-full w-full object-cover"
-                        />
+                <div className="flex w-full flex-col items-center justify-center gap-6 lg:flex-row lg:items-center lg:justify-start lg:gap-12">
+                    {/* Map */}
+                    <div className="relative h-[230px] w-full max-w-[361px] overflow-hidden rounded-[22px] lg:h-[446px] lg:w-[496px] lg:max-w-none">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.8207365690964!2d80.5294316!3d7.261232399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae36b5e22cf1a87%3A0xf9d2c53bab57c11e!2zQ29sb3IgRmFzaGlvbiDgtprgtqngt5TgtpzgtrHgt4rgtrHgt4_gt4A!5e0!3m2!1sen!2slk!4v1764065459301!5m2!1sen!2slk"
+                            width="100%"
+                            height="100%"
+                            style={{ border: 0 }}
+                            allowFullScreen={true}
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                            title="Google Maps Location"
+                        ></iframe>
                     </div>
 
                     {/* Contact Info */}
@@ -33,7 +38,7 @@ export function ContactSection() {
                         {/* Address */}
                         <div className="flex items-center justify-start gap-3 lg:gap-3">
                             <IconContainer className="lg:h-12 lg:w-12">
-                                <MapPin className="h-6 w-6 text-primary lg:h-6 lg:w-6" />
+                                <Location01Icon className="h-6 w-6 text-primary lg:h-6 lg:w-6" />
                             </IconContainer>
                             <div className="flex flex-col items-start justify-center gap-2">
                                 <span className="text-base font-medium leading-4 text-text-heading lg:text-base lg:leading-4">
@@ -48,7 +53,7 @@ export function ContactSection() {
                         {/* Phone */}
                         <div className="flex items-center justify-start gap-3 lg:gap-3">
                             <IconContainer className="lg:h-12 lg:w-12">
-                                <Phone className="h-6 w-6 text-primary lg:h-6 lg:w-6" />
+                                <CallingIcon className="h-6 w-6 text-primary lg:h-6 lg:w-6" />
                             </IconContainer>
                             <div className="flex flex-col items-start justify-start gap-2">
                                 <span className="text-base font-medium leading-4 text-text-heading lg:text-base lg:leading-4">
@@ -63,7 +68,7 @@ export function ContactSection() {
                         {/* Email */}
                         <div className="flex items-center justify-start gap-3 lg:gap-3">
                             <IconContainer className="lg:h-12 lg:w-12">
-                                <Mail className="h-6 w-6 text-primary lg:h-6 lg:w-6" />
+                                <Mail01Icon className="h-6 w-6 text-primary lg:h-6 lg:w-6" />
                             </IconContainer>
                             <div className="flex flex-col items-start justify-start gap-2">
                                 <span className="text-base font-medium leading-4 text-text-heading lg:text-base lg:leading-4">
@@ -78,7 +83,7 @@ export function ContactSection() {
                         {/* Opening Hours */}
                         <div className="flex items-start justify-start gap-3 lg:gap-3">
                             <IconContainer className="lg:h-12 lg:w-12">
-                                <Clock className="h-6 w-6 text-primary lg:h-6 lg:w-6" />
+                                <Clock01Icon className="h-6 w-6 text-primary lg:h-6 lg:w-6" />
                             </IconContainer>
                             <div className="flex flex-col items-start justify-start gap-2">
                                 <span className="text-base font-medium leading-4 text-text-heading lg:text-base lg:leading-4">

@@ -1,7 +1,7 @@
 import * as React from "react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { ArrowUpRight } from "lucide-react";
+import { LinkSquare02Icon } from "hugeicons-react";
 
 interface ServiceCardProps extends React.HTMLAttributes<HTMLDivElement> {
     title: string;
@@ -46,9 +46,14 @@ export function ServiceCard({
                     </p>
                 </div>
 
-                <Button variant="outline" size="default" onClick={onOrderClick} className="w-full justify-between sm:w-auto">
+                <Button
+                    variant="outline"
+                    size="default"
+                    onClick={onOrderClick}
+                    className="inline-flex w-157px items-center justify-center gap-x-2 rounded-xl border-1 border-primary px-5 py-2.5 text-base font-medium text-text-heading outline-offset-[-1.5px] sm:w-auto"
+                >
                     Order Now
-                    <ArrowUpRight className="ml-2 h-4 w-4" />
+                    <LinkSquare02Icon className="h-6 w-6 stroke-[1.5px]" strokeWidth={1.5} />
                 </Button>
             </div>
         </div>

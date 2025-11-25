@@ -1,6 +1,6 @@
 import * as React from "react";
 import { cn } from "@/lib/utils";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight01Icon } from "hugeicons-react";
 
 interface WhatsAppButtonProps extends React.HTMLAttributes<HTMLDivElement> {
     onClick?: () => void;
@@ -24,12 +24,9 @@ export function WhatsAppButton({ className, onClick, ...props }: WhatsAppButtonP
             />
 
             {/* Text */}
-            <div className="text-base font-medium text-white lg:text-lg">
+            <div className="text-base font-medium text-white lg:text-18px">
                 Start Order on WhatsApp
             </div>
-
-            {/* Arrow Icon (Custom or Lucide) */}
-            <ArrowRight className="h-4 w-4 text-white lg:h-5 lg:w-5" />
         </div>
     );
 }

@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Container } from "@/components/ui/container";
 import { IconContainer } from "@/components/ui/icon-container";
-import { Facebook, Instagram, Mail } from "lucide-react";
+import { Facebook02Icon, InstagramIcon, Mail01Icon } from "hugeicons-react";
 
 export function Footer() {
     return (
@@ -9,9 +9,9 @@ export function Footer() {
             <Container className="flex flex-col items-center justify-center gap-8 lg:gap-8">
                 {/* Top Section: Logo & Socials */}
                 <div className="flex w-full items-center justify-between">
-                    <div className="relative h-11 w-11 lg:h-[52px] lg:w-[52px]">
+                    <div className="relative h-11 w-11 lg:h-[52px] lg:w-[42px]">
                         <img
-                            src="https://placehold.co/52x52"
+                            src="/logo.png"
                             alt="Logo"
                             className="h-full w-full object-cover"
                         />
@@ -19,13 +19,13 @@ export function Footer() {
 
                     <div className="flex items-center gap-3">
                         <IconContainer className="h-11 w-11 lg:h-12 lg:w-12">
-                            <Facebook className="h-5 w-5 text-primary lg:h-6 lg:w-6" />
+                            <Facebook02Icon className="h-5 w-5 text-primary lg:h-6 lg:w-6" />
                         </IconContainer>
                         <IconContainer className="h-11 w-11 lg:h-12 lg:w-12">
-                            <Instagram className="h-5 w-5 text-primary lg:h-6 lg:w-6" />
+                            <InstagramIcon className="h-5 w-5 text-primary lg:h-6 lg:w-6" />
                         </IconContainer>
                         <IconContainer className="h-11 w-11 lg:h-12 lg:w-12">
-                            <Mail className="h-5 w-5 text-primary lg:h-6 lg:w-6" />
+                            <Mail01Icon className="h-5 w-5 text-primary lg:h-6 lg:w-6" />
                         </IconContainer>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ export function Footer() {
                     <div className="flex items-center gap-3">
                         <span>Design & Develop by</span>
                         <img
-                            src="https://placehold.co/86x12"
+                            src="nexgen logo.png"
                             alt="NexGen Labs"
                             className="h-3 w-[86px]"
                         />
