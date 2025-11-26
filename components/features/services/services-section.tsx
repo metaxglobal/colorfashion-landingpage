@@ -25,14 +25,14 @@ export function ServicesSection() {
                         imageSrc="/tshirt.png"
                     />
                     <ServiceCard
-                        title="Wetlook Jerseys"
-                        description="Premium wetlook jerseys made with breathable fabric and sharp printing, ideal for sports teams and activewear branding."
-                        imageSrc="/wetlook.png"
-                    />
-                    <ServiceCard
                         title="Crocodile Office T-Shirts"
                         description="Professional-grade office T-shirts made from crocodile fabric, perfect for corporate uniforms and promotional branding."
                         imageSrc="/polo.png"
+                    />
+                    <ServiceCard
+                        title="Wetlook Jerseys"
+                        description="Premium wetlook jerseys made with breathable fabric and sharp printing, ideal for sports teams and activewear branding."
+                        imageSrc="/wetlook.png"
                     />
                     <ServiceCard
                         title="Bottoms, Shorts, Jackets & Flags"

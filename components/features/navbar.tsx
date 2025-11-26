@@ -91,16 +91,18 @@ function DesktopNav({ activeLink, setActiveLink }: { activeLink: string, setActi
 
 function ContactButton() {
     return (
-        <Button
-            variant="outline"
-            size="default"
-            className="h-10 rounded-xl border-[1.5px] px-5 py-2.5 lg:h-11 lg:text-18px"
-        >
-            Contact
-            <ArrowUpRight01Icon
-                className="h-4 w-4 text-text-heading lg:h-9 lg:w-9"
-                strokeWidth={1.5}
-            />
-        </Button>
+        <a href="#contact">
+            <Button
+                variant="outline"
+                size="default"
+                className="h-10 rounded-xl border-[1.5px] px-5 py-2.5 lg:h-11 lg:text-18px"
+            >
+                Contact
+                <ArrowUpRight01Icon
+                    className="h-4 w-4 text-text-heading lg:h-9 lg:w-9"
+                    strokeWidth={1.5}
+                />
+            </Button>
+        </a>
     )
 }

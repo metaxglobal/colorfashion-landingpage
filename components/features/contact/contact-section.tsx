@@ -5,7 +5,7 @@ import { Location01Icon, CallingIcon, Mail01Icon, Clock01Icon } from "hugeicons-
 
 export function ContactSection() {
     return (
-        <section className="w-full bg-bg-alt py-12 lg:py-16">
+        <section id="contact" className="w-full bg-bg-alt py-12 lg:py-16">
             <Container className="flex flex-col items-center justify-center gap-8 lg:gap-8 lg:px-[222px]">
                 {/* Header */}
                 <div className="flex w-full flex-col items-center justify-start gap-3 text-center">
@@ -60,7 +60,7 @@ export function ContactSection() {
                                     Phone
                                 </span>
                                 <span className="text-base font-normal leading-4 text-text-body lg:text-base lg:leading-4">
-                                    +94 76 089 2411
+                                    071 527 2238
                                 </span>
                             </div>
                         </div>

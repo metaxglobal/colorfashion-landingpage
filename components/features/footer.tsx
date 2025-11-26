@@ -19,13 +19,19 @@ export function Footer() {
 
                     <div className="flex items-center gap-3">
                         <IconContainer className="h-11 w-11 lg:h-12 lg:w-12">
-                            <Facebook02Icon className="h-5 w-5 text-primary lg:h-6 lg:w-6" />
+                            <a href="https://web.facebook.com/thiianhga/?_rdc=1&_rdr#" target="_blank" rel="noopener noreferrer">
+                                <Facebook02Icon className="h-5 w-5 text-primary lg:h-6 lg:w-6" />
+                            </a>
                         </IconContainer>
                         <IconContainer className="h-11 w-11 lg:h-12 lg:w-12">
-                            <InstagramIcon className="h-5 w-5 text-primary lg:h-6 lg:w-6" />
+                            <a href="https://web.facebook.com/thiianhga/?_rdc=1&_rdr#" target="_blank" rel="noopener noreferrer">
+                                <InstagramIcon className="h-5 w-5 text-primary lg:h-6 lg:w-6" />
+                            </a>
                         </IconContainer>
                         <IconContainer className="h-11 w-11 lg:h-12 lg:w-12">
-                            <Mail01Icon className="h-5 w-5 text-primary lg:h-6 lg:w-6" />
+                            <a href="mailto:colorfashion7@gmail.com" target="_blank" rel="noopener noreferrer">
+                                <Mail01Icon className="h-5 w-5 text-primary lg:h-6 lg:w-6" />
+                            </a>
                         </IconContainer>
                     </div>
                 </div>
@@ -37,11 +43,13 @@ export function Footer() {
                     </p>
                     <div className="flex items-center gap-3">
                         <span>Design & Develop by</span>
-                        <img
-                            src="nexgen logo.png"
-                            alt="NexGen Labs"
-                            className="h-3 w-[86px]"
-                        />
+                        <a href="https://nexgenlab.global" target="_blank" rel="noopener noreferrer">
+                            <img
+                                src="nexgen logo.png"
+                                alt="NexGen Labs"
+                                className="h-3 w-[86px]"
+                            />
+                        </a>
                     </div>
                 </div>
             </Container>

@@ -46,15 +46,17 @@ export function ServiceCard({
                     </p>
                 </div>
 
-                <Button
-                    variant="outline"
-                    size="default"
-                    onClick={onOrderClick}
-                    className="inline-flex w-157px items-center justify-center gap-x-2 rounded-xl border-1 border-primary px-5 py-2.5 text-base font-medium text-text-heading outline-offset-[-1.5px] sm:w-auto"
-                >
-                    Order Now
-                    <LinkSquare02Icon className="h-6 w-6 stroke-[1.5px]" strokeWidth={1.5} />
-                </Button>
+                <a href="https://wa.me/94705220000" target="_blank" rel="noopener noreferrer">
+                    <Button
+                        variant="outline"
+                        size="default"
+                        onClick={onOrderClick}
+                        className="inline-flex w-157px items-center justify-center gap-x-2 rounded-xl border-1 border-primary px-5 py-2.5 text-base font-medium text-text-heading outline-offset-[-1.5px] sm:w-auto"
+                    >
+                        Order Now
+                        <LinkSquare02Icon className="h-6 w-6 stroke-[1.5px]" strokeWidth={1.5} />
+                    </Button>
+                </a>
             </div>
         </div>
     );
