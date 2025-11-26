@@ -38,13 +38,16 @@ export function Navbar() {
         <nav className="sticky top-0 z-50 w-full bg-bg-default shadow-header">
             <Container className="flex h-[78px] items-center justify-between lg:h-[88px]">
                 {/* Logo */}
-                <div className="relative h-11 w-9 overflow-hidden lg:h-[52px] lg:w-[42px]">
-                    <img
-                        src="/logo.png"
-                        alt="Logo"
-                        className="h-full w-full object-cover"
-                    />
-                </div>
+                {/* Logo */}
+                <a href="#home">
+                    <div className="relative h-11 w-9 overflow-hidden lg:h-[52px] lg:w-[42px]">
+                        <img
+                            src="/logo.png"
+                            alt="Logo"
+                            className="h-full w-full object-cover"
+                        />
+                    </div>
+                </a>
 
                 {/* Right-aligned group for Desktop Navigation and Action */}
                 <div className="hidden lg:flex items-center gap-10">
