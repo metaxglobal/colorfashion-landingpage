@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Container } from "@/components/ui/container";
 import { IconContainer } from "@/components/ui/icon-container";
-import { Facebook02Icon, InstagramIcon, Mail01Icon } from "hugeicons-react";
+import { Facebook02Icon, Mail01Icon, YoutubeIcon } from "hugeicons-react";
 
 export function Footer() {
     return (
@@ -24,8 +24,8 @@ export function Footer() {
                             </a>
                         </IconContainer>
                         <IconContainer className="h-11 w-11 lg:h-12 lg:w-12">
-                            <a href="https://web.facebook.com/thiianhga/?_rdc=1&_rdr#" target="_blank" rel="noopener noreferrer">
-                                <InstagramIcon className="h-5 w-5 text-primary lg:h-6 lg:w-6" />
+                            <a href="https://www.youtube.com/@colorfashion9245" target="_blank" rel="noopener noreferrer">
+                                <YoutubeIcon className="h-5 w-5 text-primary lg:h-6 lg:w-6" />
                             </a>
                         </IconContainer>
                         <IconContainer className="h-11 w-11 lg:h-12 lg:w-12">

@@ -26,10 +26,10 @@ export function Hero() {
                     </div>
 
                     {/* Actions */}
-                    <div className="flex flex-col items-center justify-center gap-3 sm:flex-row lg:gap-4">
-                        <WhatsAppButton />
-                        <a href="#services">
-                            <Button variant="outline" className="h-10 rounded-xl border-[1.5px] px-5 lg:h-11 lg:px-6 lg:text-18px">
+                    <div className="flex w-full max-w-[340px] flex-col items-center justify-center gap-3 sm:w-auto sm:max-w-none sm:flex-row lg:gap-4">
+                        <WhatsAppButton className="w-full sm:w-auto" />
+                        <a href="#services" className="w-full sm:w-auto">
+                            <Button variant="outline" className="h-10 w-full rounded-xl border-[1.5px] px-5 sm:w-auto lg:h-11 lg:px-6 lg:text-18px">
                                 View Services
                                 <ArrowDownRight01Icon className="h-5 w-5" strokeWidth={2} />
                             </Button>
