@@ -47,15 +47,15 @@ export function AboutSection() {
                 {/* Cards */}
                 <div className="grid w-full grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-5">
                     <AboutCard
-                        title="Fast Turnaround Times"
-                        description="Stay ahead of your schedule with a built-in calendar that syncs across all your devices and reminds you what's next."
-                        icon={<Award02Icon className="h-6 w-6 text-primary lg:h-8 lg:w-8" />}
+                        title="Fast Delivery"
+                        description="We prioritize efficiency and speed, ensuring your orders are processed and delivered promptly without compromising on quality."
+                        icon={<FlashIcon className="h-6 w-6 text-primary lg:h-8 lg:w-8" />}
                         className="h-full"
                     />
                     <AboutCard
-                        title="Fast Turnaround Times"
-                        description="Stay ahead of your schedule with a built-in calendar that syncs across all your devices and reminds you what's next."
-                        icon={<FlashIcon className="h-6 w-6 text-primary lg:h-8 lg:w-8" />}
+                        title="Quality Assurance"
+                        description="Our commitment to excellence means every product undergoes rigorous quality checks, guaranteeing superior craftsmanship and durability."
+                        icon={<Award02Icon className="h-6 w-6 text-primary lg:h-8 lg:w-8" />}
                         className="h-full"
                     />
                     <AboutCard
