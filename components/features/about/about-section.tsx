@@ -53,7 +53,7 @@ export function AboutSection() {
                         className="h-full"
                     />
                     <AboutCard
-                        title="Quality Assurance"
+                        title="High-Quality, Durable Prints"
                         description="Our commitment to excellence means every product undergoes rigorous quality checks, guaranteeing superior craftsmanship and durability."
                         icon={<Award02Icon className="h-6 w-6 text-primary lg:h-8 lg:w-8" />}
                         className="h-full"
