@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.colorfashionindustrial.com'), // Replace with your actual domain
+  metadataBase: new URL('https://colorfashionindustrial.com'),
   title: {
     default: "Color Fashion Industrial | Premium Custom Printing",
     template: "%s | Color Fashion Industrial"
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Color Fashion Industrial | Premium Custom Printing",
     description: "Premium custom printing for your jerseys, office wear, mugs, flags & more.",
-    url: 'https://www.colorfashionindustrial.com',
+    url: 'https://colorfashionindustrial.com',
     siteName: 'Color Fashion Industrial',
     locale: 'en_US',
     type: 'website',
